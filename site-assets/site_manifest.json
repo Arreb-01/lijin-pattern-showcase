@@ -1,0 +1,1015 @@
+{
+  "project": {
+    "name": "黎锦纹铭",
+    "romanizedName": "LiJin Pattern Intelligence",
+    "subtitle": "AI × 非遗纹样 × 3D 服饰",
+    "caseLine": "从黎锦纹样档案到 AIGC 复原、生成设计与 3D 服饰展示的完整作品集案例。",
+    "roleSummary": "资料整理 / AIGC 工作流 / 3D 展示 / 前端交互",
+    "heroMedia": "deliverables/p0_p1_restored_contact_sheet.png",
+    "showreel": [
+      "deliverables/p0_p1_restored_contact_sheet.png",
+      "deliverables/phase2c_lora_vs_prompt_comparison.png",
+      "models/previews/frog_pattern_preview.png",
+      "innovative/phase2b_gonggong_bird_pattern_showcase_phase2b_gonggong_bird_pattern_showcase_00001_.png"
+    ]
+  },
+  "metrics": [
+    {
+      "label": "素材归档",
+      "value": "925+"
+    },
+    {
+      "label": "复原纹样",
+      "value": "30+"
+    },
+    {
+      "label": "创新纹样",
+      "value": "10+"
+    },
+    {
+      "label": "3D服饰",
+      "value": "5"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Overview",
+      "href": "/#overview",
+      "summary": "用一个作品集视角概览问题、路径、输出与角色贡献。",
+      "media": "deliverables/p0_p1_restored_contact_sheet.png"
+    },
+    {
+      "title": "Cultural Archive",
+      "href": "/gallery?filter=restored",
+      "summary": "从黎锦纹样资料整理与寓意数据库开始，建立可复用素材底座。",
+      "media": "deliverables/p0_p1_restored_contact_sheet.png"
+    },
+    {
+      "title": "AI Restoration",
+      "href": "/#process",
+      "summary": "用 ControlNet 复原低清或线稿资料，让纹样回到清晰可展示状态。",
+      "media": "restored/02_蛙纹_frog_pattern.png"
+    },
+    {
+      "title": "Generative Design",
+      "href": "/gallery?filter=innovative",
+      "summary": "基于 Prompt 与 Lineart 控制生成现代服饰图案候选并进行筛选。",
+      "media": "deliverables/p0_p1_restored_contact_sheet.png"
+    },
+    {
+      "title": "3D Garment Study",
+      "href": "/#works",
+      "summary": "把纹样落到五款 3D 服饰模型，形成可浏览、可旋转的展示证据。",
+      "media": "models/previews/frog_pattern_preview.png"
+    },
+    {
+      "title": "Process & System",
+      "href": "/#process",
+      "summary": "展示从资料、模型、筛选、前端到交互验证的完整生产链路。",
+      "media": "deliverables/phase2c_lora_vs_prompt_comparison.png"
+    }
+  ],
+  "patterns": [
+    {
+      "key": "frog_pattern",
+      "name": "蛙纹",
+      "meaning": "蛙是黎族的重要图腾之一，象征多子多福、繁衍不息。黎族人认为青蛙能呼风唤雨，保护庄稼丰收。蛙纹在黎锦中常以几何化、对称化的形式出现，体现黎族对自然力量的崇拜。",
+      "category": "动物纹",
+      "culturalContext": "广泛流传于黎族润、赛、哈、杞、美孚五大方言区，是黎锦最常见的母题之一",
+      "innovationDirection": "极简几何风 / 国潮插画",
+      "preview": "models/previews/frog_pattern_preview.png",
+      "sourceVisual": "restored/02_蛙纹_frog_pattern.png",
+      "restoredVisual": "restored/02_蛙纹_frog_pattern.png",
+      "innovationVisual": "innovative/phase2b_frog_pattern_showcase_phase2b_frog_pattern_showcase_00001_.png",
+      "model": "models/optimized/frog.glb",
+      "riggedModel": "models/rigged/frog_rigged.glb",
+      "garmentSuggestion": "T恤印花 / 帆布袋",
+      "caseNote": "以蛙纹的文化寓意为起点，将传统纹样转译为极简几何风 / 国潮插画，再进入 3D 服饰模型展示。",
+      "evidenceNote": "该图案链路覆盖传统寓意梳理、AIGC 视觉复原、创新纹样筛选与轻量化 GLB 服饰展示。"
+    },
+    {
+      "key": "gonggong_bird_pattern",
+      "name": "甘工鸟纹",
+      "meaning": "甘工鸟是黎族爱情传说中的神鸟，故事讲述美丽少女化身为甘工鸟追求自由爱情。甘工鸟纹象征忠贞爱情与自由精神，是黎族青年男女定情信物上常见的纹样。",
+      "category": "动物纹",
+      "culturalContext": "源自黎族民间传说《甘工鸟》，流传于海南黎族聚居区",
+      "innovationDirection": "新国潮插画 / 浪漫风格",
+      "preview": "models/previews/gonggong_bird_pattern_preview.png",
+      "sourceVisual": "restored/03_甘工鸟纹_gonggong_bird_pattern.png",
+      "restoredVisual": "restored/03_甘工鸟纹_gonggong_bird_pattern.png",
+      "innovationVisual": "innovative/phase2b_gonggong_bird_pattern_showcase_phase2b_gonggong_bird_pattern_showcase_00001_.png",
+      "model": "models/optimized/gonggong.glb",
+      "riggedModel": "models/rigged/gonggong_rigged.glb",
+      "garmentSuggestion": "国潮旗袍 / 汉服元素上衣",
+      "caseNote": "以甘工鸟纹的文化寓意为起点，将传统纹样转译为新国潮插画 / 浪漫风格，再进入 3D 服饰模型展示。",
+      "evidenceNote": "该图案链路覆盖传统寓意梳理、AIGC 视觉复原、创新纹样筛选与轻量化 GLB 服饰展示。"
+    },
+    {
+      "key": "dali_god_pattern",
+      "name": "大力神纹",
+      "meaning": "大力神是黎族创世神话中的英雄祖先，传说他开天辟地、射日救民。大力神纹是黎族最具代表性的文化符号，象征力量、勇气与守护，常见于黎族隆-tap（祭祀）用品。",
+      "category": "神话复合纹",
+      "culturalContext": "黎族五大方言区共有，是黎族文化身份的核心标识",
+      "innovationDirection": "赛博朋克风 / 街头潮流",
+      "preview": "models/previews/dali_god_pattern_preview.png",
+      "sourceVisual": "restored/01_大力神纹_dali_god_pattern.png",
+      "restoredVisual": "restored/01_大力神纹_dali_god_pattern.png",
+      "innovationVisual": "innovative/phase2b_dali_god_pattern_showcase_phase2b_dali_god_pattern_showcase_00001_.png",
+      "model": "models/optimized/dali_god.glb",
+      "riggedModel": "models/rigged/dali_god_rigged.glb",
+      "garmentSuggestion": "连帽卫衣印花",
+      "caseNote": "以大力神纹的文化寓意为起点，将传统纹样转译为赛博朋克风 / 街头潮流，再进入 3D 服饰模型展示。",
+      "evidenceNote": "该图案链路覆盖传统寓意梳理、AIGC 视觉复原、创新纹样筛选与轻量化 GLB 服饰展示。"
+    },
+    {
+      "key": "deer_pattern",
+      "name": "鹿纹",
+      "meaning": "鹿在黎族文化中象征吉祥、长寿与爱情。海南坡鹿是国家一级保护动物，黎族人视其为山林之灵。鹿纹常与人物组合出现，表现狩猎、驯鹿等生活场景。",
+      "category": "动物纹",
+      "culturalContext": "常见于黎族哈方言区织锦，常以对鹿、人鹿组合形式呈现",
+      "innovationDirection": "日式和风融合 / 现代插画",
+      "preview": "models/previews/deer_pattern_preview.png",
+      "sourceVisual": "restored/07_鹿纹_deer_pattern.png",
+      "restoredVisual": "restored/07_鹿纹_deer_pattern.png",
+      "innovationVisual": "innovative/phase2b_deer_pattern_textile_phase2b_deer_pattern_textile_00001_.png",
+      "model": "models/optimized/deer.glb",
+      "riggedModel": "models/rigged/deer_rigged.glb",
+      "garmentSuggestion": "和服式上衣 / 围巾",
+      "caseNote": "以鹿纹的文化寓意为起点，将传统纹样转译为日式和风融合 / 现代插画，再进入 3D 服饰模型展示。",
+      "evidenceNote": "该图案链路覆盖传统寓意梳理、AIGC 视觉复原、创新纹样筛选与轻量化 GLB 服饰展示。"
+    },
+    {
+      "key": "human_pattern",
+      "name": "人形纹",
+      "meaning": "人形纹体现黎族母系社会的家族观念与祖先崇拜。舞蹈纹表现黎族传统舞蹈场景，姐妹纹叉腰象征女性团结。人物纹常以正面、对称、几何化造型出现，是黎锦中最具叙事性的纹样。",
+      "category": "人物纹",
+      "culturalContext": "黎族母系社会遗存的视觉表达，常见于婚礼、祭祀用锦",
+      "innovationDirection": "波普艺术 / 现代图形设计",
+      "preview": "models/previews/human_pattern_preview.png",
+      "sourceVisual": "restored/04_人形纹_human_pattern.png",
+      "restoredVisual": "restored/04_人形纹_human_pattern.png",
+      "innovationVisual": "innovative/phase2b_human_pattern_showcase_phase2b_human_pattern_showcase_00001_.png",
+      "model": "models/optimized/human.glb",
+      "riggedModel": "models/rigged/human_rigged.glb",
+      "garmentSuggestion": "街头潮流卫衣",
+      "caseNote": "以人形纹的文化寓意为起点，将传统纹样转译为波普艺术 / 现代图形设计，再进入 3D 服饰模型展示。",
+      "evidenceNote": "该图案链路覆盖传统寓意梳理、AIGC 视觉复原、创新纹样筛选与轻量化 GLB 服饰展示。"
+    }
+  ],
+  "galleries": [
+    {
+      "id": "deliverable-deliverables-low-score-rerun-review-sheet",
+      "title": "low score rerun review sheet",
+      "category": "process",
+      "src": "deliverables/low_score_rerun_review_sheet.png",
+      "alt": "黎锦纹铭交付物：low score rerun review sheet"
+    },
+    {
+      "id": "deliverable-deliverables-p0-p1-quality-review-sheet",
+      "title": "p0 p1 quality review sheet",
+      "category": "restored",
+      "src": "deliverables/p0_p1_quality_review_sheet.png",
+      "alt": "黎锦纹铭交付物：p0 p1 quality review sheet"
+    },
+    {
+      "id": "deliverable-deliverables-p0-p1-restored-contact-sheet",
+      "title": "p0 p1 restored contact sheet",
+      "category": "restored",
+      "src": "deliverables/p0_p1_restored_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：p0 p1 restored contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-p0-restored-contact-sheet",
+      "title": "p0 restored contact sheet",
+      "category": "restored",
+      "src": "deliverables/p0_restored_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：p0 restored contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-p1-restored-contact-sheet",
+      "title": "p1 restored contact sheet",
+      "category": "restored",
+      "src": "deliverables/p1_restored_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：p1 restored contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-p2-restored-review-sheet",
+      "title": "p2 restored review sheet",
+      "category": "restored",
+      "src": "deliverables/p2_restored_review_sheet.png",
+      "alt": "黎锦纹铭交付物：p2 restored review sheet"
+    },
+    {
+      "id": "deliverable-deliverables-p3-candidate-source-preview",
+      "title": "p3 candidate source preview",
+      "category": "process",
+      "src": "deliverables/p3_candidate_source_preview.png",
+      "alt": "黎锦纹铭交付物：p3 candidate source preview"
+    },
+    {
+      "id": "deliverable-deliverables-phase2a-15-vector-restored-contact-sheet",
+      "title": "15 vector restored contact sheet",
+      "category": "restored",
+      "src": "deliverables/phase2a_15_vector_restored_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：15 vector restored contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-phase2a-30-vector-restored-contact-sheet",
+      "title": "30 vector restored contact sheet",
+      "category": "restored",
+      "src": "deliverables/phase2a_30_vector_restored_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：30 vector restored contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-phase2c-lora-generation-contact-sheet",
+      "title": "lora generation contact sheet",
+      "category": "lora",
+      "src": "deliverables/phase2c_lora_generation_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：lora generation contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-phase2c-lora-vs-prompt-comparison",
+      "title": "lora vs prompt comparison",
+      "category": "lora",
+      "src": "deliverables/phase2c_lora_vs_prompt_comparison.png",
+      "alt": "黎锦纹铭交付物：lora vs prompt comparison"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-01-core-restored-01-大力神纹-dali-god-pattern",
+      "title": "01 大力神纹 dali god pattern",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/01_core_restored/01_大力神纹_dali_god_pattern.png",
+      "alt": "黎锦纹铭交付物：01 大力神纹 dali god pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-01-core-restored-02-蛙纹-frog-pattern",
+      "title": "02 蛙纹 frog pattern",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/01_core_restored/02_蛙纹_frog_pattern.png",
+      "alt": "黎锦纹铭交付物：02 蛙纹 frog pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-01-core-restored-03-甘工鸟纹-gonggong-bird-pattern",
+      "title": "03 甘工鸟纹 gonggong bird pattern",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/01_core_restored/03_甘工鸟纹_gonggong_bird_pattern.png",
+      "alt": "黎锦纹铭交付物：03 甘工鸟纹 gonggong bird pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-01-core-restored-04-人形纹-human-pattern",
+      "title": "04 人形纹 human pattern",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/01_core_restored/04_人形纹_human_pattern.png",
+      "alt": "黎锦纹铭交付物：04 人形纹 human pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-01-core-restored-05-牛纹-ox-pattern",
+      "title": "05 牛纹 ox pattern",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/01_core_restored/05_牛纹_ox_pattern.png",
+      "alt": "黎锦纹铭交付物：05 牛纹 ox pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-01-core-restored-06-花草纹-flower-pattern",
+      "title": "06 花草纹 flower pattern",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/01_core_restored/06_花草纹_flower_pattern.png",
+      "alt": "黎锦纹铭交付物：06 花草纹 flower pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-02-rerun-fixes-07-鹿纹-deer-pattern",
+      "title": "07 鹿纹 deer pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/02_rerun_fixes/07_鹿纹_deer_pattern.png",
+      "alt": "黎锦纹铭交付物：07 鹿纹 deer pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-02-rerun-fixes-08-飞鸟纹-bird-pattern",
+      "title": "08 飞鸟纹 bird pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/02_rerun_fixes/08_飞鸟纹_bird_pattern.png",
+      "alt": "黎锦纹铭交付物：08 飞鸟纹 bird pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-02-rerun-fixes-09-舞蹈纹-dance-pattern",
+      "title": "09 舞蹈纹 dance pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/02_rerun_fixes/09_舞蹈纹_dance_pattern.png",
+      "alt": "黎锦纹铭交付物：09 舞蹈纹 dance pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-02-rerun-fixes-10-万字纹-swastika-pattern",
+      "title": "10 万字纹 swastika pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/02_rerun_fixes/10_万字纹_swastika_pattern.png",
+      "alt": "黎锦纹铭交付物：10 万字纹 swastika pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-04-process-boards-01-p0-p1-十张复原总览-p0-p1-restored-contact-sheet",
+      "title": "01 P0 P1 十张复原总览 p0 p1 restored contact sheet",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/04_process_boards/01_P0_P1_十张复原总览_p0_p1_restored_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：01 P0 P1 十张复原总览 p0 p1 restored contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-04-process-boards-02-p0-p1-质量复核拼图-p0-p1-quality-review-sheet",
+      "title": "02 P0 P1 质量复核拼图 p0 p1 quality review sheet",
+      "category": "restored",
+      "src": "deliverables/ppt_assets/04_process_boards/02_P0_P1_质量复核拼图_p0_p1_quality_review_sheet.png",
+      "alt": "黎锦纹铭交付物：02 P0 P1 质量复核拼图 p0 p1 quality review sheet"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-04-process-boards-03-万字纹重跑复核-swastika-rerun-review-sheet",
+      "title": "03 万字纹重跑复核 swastika rerun review sheet",
+      "category": "process",
+      "src": "deliverables/ppt_assets/04_process_boards/03_万字纹重跑复核_swastika_rerun_review_sheet.png",
+      "alt": "黎锦纹铭交付物：03 万字纹重跑复核 swastika rerun review sheet"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-04-process-boards-04-低分样张重跑复核-low-score-rerun-review-sheet",
+      "title": "04 低分样张重跑复核 low score rerun review sheet",
+      "category": "process",
+      "src": "deliverables/ppt_assets/04_process_boards/04_低分样张重跑复核_low_score_rerun_review_sheet.png",
+      "alt": "黎锦纹铭交付物：04 低分样张重跑复核 low score rerun review sheet"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-05-ppt-boards-16x9-ppt-assets-overview-16x9",
+      "title": "ppt assets overview 16x9",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/05_ppt_boards_16x9/ppt_assets_overview_16x9.png",
+      "alt": "黎锦纹铭交付物：ppt assets overview 16x9"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-05-ppt-boards-16x9-ppt-process-evidence-16x9",
+      "title": "ppt process evidence 16x9",
+      "category": "process",
+      "src": "deliverables/ppt_assets/05_ppt_boards_16x9/ppt_process_evidence_16x9.png",
+      "alt": "黎锦纹铭交付物：ppt process evidence 16x9"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-05-ppt-boards-16x9-ppt-rerun-fixes-16x9",
+      "title": "ppt rerun fixes 16x9",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/05_ppt_boards_16x9/ppt_rerun_fixes_16x9.png",
+      "alt": "黎锦纹铭交付物：ppt rerun fixes 16x9"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-05-ppt-boards-16x9-ppt-restoration-candidates-16x9",
+      "title": "ppt restoration candidates 16x9",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/05_ppt_boards_16x9/ppt_restoration_candidates_16x9.png",
+      "alt": "黎锦纹铭交付物：ppt restoration candidates 16x9"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-01-大力神纹-dali-god-pattern-showcase",
+      "title": "01 大力神纹 dali god pattern showcase",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/01_大力神纹_dali_god_pattern_showcase.png",
+      "alt": "黎锦纹铭交付物：01 大力神纹 dali god pattern showcase"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-02-大力神纹-dali-god-pattern-textile",
+      "title": "02 大力神纹 dali god pattern textile",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/02_大力神纹_dali_god_pattern_textile.png",
+      "alt": "黎锦纹铭交付物：02 大力神纹 dali god pattern textile"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-03-蛙纹-frog-pattern-showcase",
+      "title": "03 蛙纹 frog pattern showcase",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/03_蛙纹_frog_pattern_showcase.png",
+      "alt": "黎锦纹铭交付物：03 蛙纹 frog pattern showcase"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-04-蛙纹-frog-pattern-textile",
+      "title": "04 蛙纹 frog pattern textile",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/04_蛙纹_frog_pattern_textile.png",
+      "alt": "黎锦纹铭交付物：04 蛙纹 frog pattern textile"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-05-鹿纹-deer-pattern-showcase",
+      "title": "05 鹿纹 deer pattern showcase",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/05_鹿纹_deer_pattern_showcase.png",
+      "alt": "黎锦纹铭交付物：05 鹿纹 deer pattern showcase"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-06-鹿纹-deer-pattern-textile",
+      "title": "06 鹿纹 deer pattern textile",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/06_鹿纹_deer_pattern_textile.png",
+      "alt": "黎锦纹铭交付物：06 鹿纹 deer pattern textile"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-07-人形纹-human-pattern-showcase",
+      "title": "07 人形纹 human pattern showcase",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/07_人形纹_human_pattern_showcase.png",
+      "alt": "黎锦纹铭交付物：07 人形纹 human pattern showcase"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-08-人形纹-human-pattern-textile",
+      "title": "08 人形纹 human pattern textile",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/08_人形纹_human_pattern_textile.png",
+      "alt": "黎锦纹铭交付物：08 人形纹 human pattern textile"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-09-甘工鸟纹-gonggong-bird-pattern-showcase",
+      "title": "09 甘工鸟纹 gonggong bird pattern showcase",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/09_甘工鸟纹_gonggong_bird_pattern_showcase.png",
+      "alt": "黎锦纹铭交付物：09 甘工鸟纹 gonggong bird pattern showcase"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-06-innovative-patterns-10-甘工鸟纹-gonggong-bird-pattern-textile",
+      "title": "10 甘工鸟纹 gonggong bird pattern textile",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/06_innovative_patterns/10_甘工鸟纹_gonggong_bird_pattern_textile.png",
+      "alt": "黎锦纹铭交付物：10 甘工鸟纹 gonggong bird pattern textile"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-01-鱼纹新生版-fish-new-lora-w0-8",
+      "title": "01 鱼纹新生版 fish new lora w0 8",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/01_鱼纹新生版_fish_new_lora_w0_8.png",
+      "alt": "黎锦纹铭交付物：01 鱼纹新生版 fish new lora w0 8"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-02-龟纹守护版-turtle-guardian-lora-w0-8",
+      "title": "02 龟纹守护版 turtle guardian lora w0 8",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/02_龟纹守护版_turtle_guardian_lora_w0_8.png",
+      "alt": "黎锦纹铭交付物：02 龟纹守护版 turtle guardian lora w0 8"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-03-稻谷丰收版-rice-harvest-lora-w0-8",
+      "title": "03 稻谷丰收版 rice harvest lora w0 8",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/03_稻谷丰收版_rice_harvest_lora_w0_8.png",
+      "alt": "黎锦纹铭交付物：03 稻谷丰收版 rice harvest lora w0 8"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-04-鹰纹远望版-eagle-vision-lora-w0-8",
+      "title": "04 鹰纹远望版 eagle vision lora w0 8",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/04_鹰纹远望版_eagle_vision_lora_w0_8.png",
+      "alt": "黎锦纹铭交付物：04 鹰纹远望版 eagle vision lora w0 8"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-05-抽象守护纹-guardian-abstract-lora-w0-8",
+      "title": "05 抽象守护纹 guardian abstract lora w0 8",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/05_抽象守护纹_guardian_abstract_lora_w0_8.png",
+      "alt": "黎锦纹铭交付物：05 抽象守护纹 guardian abstract lora w0 8"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-06-服饰边框纹-fashion-border-lora-w0-8",
+      "title": "06 服饰边框纹 fashion border lora w0 8",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/06_服饰边框纹_fashion_border_lora_w0_8.png",
+      "alt": "黎锦纹铭交付物：06 服饰边框纹 fashion border lora w0 8"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-phase2c-lora-generation-contact-sheet",
+      "title": "lora generation contact sheet",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/phase2c_lora_generation_contact_sheet.png",
+      "alt": "黎锦纹铭交付物：lora generation contact sheet"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-08-phase2c-lora-phase2c-lora-vs-prompt-comparison",
+      "title": "lora vs prompt comparison",
+      "category": "lora",
+      "src": "deliverables/ppt_assets/08_phase2c_lora/phase2c_lora_vs_prompt_comparison.png",
+      "alt": "黎锦纹铭交付物：lora vs prompt comparison"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-01-大力神纹-dali-god-pattern",
+      "title": "01 大力神纹 dali god pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/01_大力神纹_dali_god_pattern.png",
+      "alt": "黎锦纹铭交付物：01 大力神纹 dali god pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-02-蛙纹-frog-pattern",
+      "title": "02 蛙纹 frog pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/02_蛙纹_frog_pattern.png",
+      "alt": "黎锦纹铭交付物：02 蛙纹 frog pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-03-甘工鸟纹-gonggong-bird-pattern",
+      "title": "03 甘工鸟纹 gonggong bird pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/03_甘工鸟纹_gonggong_bird_pattern.png",
+      "alt": "黎锦纹铭交付物：03 甘工鸟纹 gonggong bird pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-04-人形纹-human-pattern",
+      "title": "04 人形纹 human pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/04_人形纹_human_pattern.png",
+      "alt": "黎锦纹铭交付物：04 人形纹 human pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-05-牛纹-ox-pattern",
+      "title": "05 牛纹 ox pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/05_牛纹_ox_pattern.png",
+      "alt": "黎锦纹铭交付物：05 牛纹 ox pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-06-花草纹-flower-pattern",
+      "title": "06 花草纹 flower pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/06_花草纹_flower_pattern.png",
+      "alt": "黎锦纹铭交付物：06 花草纹 flower pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-07-鹿纹-deer-pattern",
+      "title": "07 鹿纹 deer pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/07_鹿纹_deer_pattern.png",
+      "alt": "黎锦纹铭交付物：07 鹿纹 deer pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-08-飞鸟纹-bird-pattern",
+      "title": "08 飞鸟纹 bird pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/08_飞鸟纹_bird_pattern.png",
+      "alt": "黎锦纹铭交付物：08 飞鸟纹 bird pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-09-舞蹈纹-dance-pattern",
+      "title": "09 舞蹈纹 dance pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/09_舞蹈纹_dance_pattern.png",
+      "alt": "黎锦纹铭交付物：09 舞蹈纹 dance pattern"
+    },
+    {
+      "id": "deliverable-deliverables-ppt-assets-补充-10-万字纹-swastika-pattern",
+      "title": "10 万字纹 swastika pattern",
+      "category": "deliverables",
+      "src": "deliverables/ppt_assets/补充/10_万字纹_swastika_pattern.png",
+      "alt": "黎锦纹铭交付物：10 万字纹 swastika pattern"
+    },
+    {
+      "id": "deliverable-deliverables-swastika-rerun-review-sheet",
+      "title": "swastika rerun review sheet",
+      "category": "process",
+      "src": "deliverables/swastika_rerun_review_sheet.png",
+      "alt": "黎锦纹铭交付物：swastika rerun review sheet"
+    },
+    {
+      "id": "restored-restored-01-大力神纹-dali-god-pattern",
+      "title": "01 大力神纹 dali god pattern",
+      "category": "restored",
+      "src": "restored/01_大力神纹_dali_god_pattern.png",
+      "alt": "AIGC 复原纹样：01 大力神纹 dali god pattern"
+    },
+    {
+      "id": "restored-restored-02-蛙纹-frog-pattern",
+      "title": "02 蛙纹 frog pattern",
+      "category": "restored",
+      "src": "restored/02_蛙纹_frog_pattern.png",
+      "alt": "AIGC 复原纹样：02 蛙纹 frog pattern"
+    },
+    {
+      "id": "restored-restored-03-甘工鸟纹-gonggong-bird-pattern",
+      "title": "03 甘工鸟纹 gonggong bird pattern",
+      "category": "restored",
+      "src": "restored/03_甘工鸟纹_gonggong_bird_pattern.png",
+      "alt": "AIGC 复原纹样：03 甘工鸟纹 gonggong bird pattern"
+    },
+    {
+      "id": "restored-restored-04-人形纹-human-pattern",
+      "title": "04 人形纹 human pattern",
+      "category": "restored",
+      "src": "restored/04_人形纹_human_pattern.png",
+      "alt": "AIGC 复原纹样：04 人形纹 human pattern"
+    },
+    {
+      "id": "restored-restored-05-牛纹-ox-pattern",
+      "title": "05 牛纹 ox pattern",
+      "category": "restored",
+      "src": "restored/05_牛纹_ox_pattern.png",
+      "alt": "AIGC 复原纹样：05 牛纹 ox pattern"
+    },
+    {
+      "id": "restored-restored-06-花草纹-flower-pattern",
+      "title": "06 花草纹 flower pattern",
+      "category": "restored",
+      "src": "restored/06_花草纹_flower_pattern.png",
+      "alt": "AIGC 复原纹样：06 花草纹 flower pattern"
+    },
+    {
+      "id": "restored-restored-07-鹿纹-deer-pattern",
+      "title": "07 鹿纹 deer pattern",
+      "category": "restored",
+      "src": "restored/07_鹿纹_deer_pattern.png",
+      "alt": "AIGC 复原纹样：07 鹿纹 deer pattern"
+    },
+    {
+      "id": "restored-restored-08-飞鸟纹-bird-pattern",
+      "title": "08 飞鸟纹 bird pattern",
+      "category": "restored",
+      "src": "restored/08_飞鸟纹_bird_pattern.png",
+      "alt": "AIGC 复原纹样：08 飞鸟纹 bird pattern"
+    },
+    {
+      "id": "restored-restored-09-舞蹈纹-dance-pattern",
+      "title": "09 舞蹈纹 dance pattern",
+      "category": "restored",
+      "src": "restored/09_舞蹈纹_dance_pattern.png",
+      "alt": "AIGC 复原纹样：09 舞蹈纹 dance pattern"
+    },
+    {
+      "id": "restored-restored-10-万字纹-swastika-pattern",
+      "title": "10 万字纹 swastika pattern",
+      "category": "restored",
+      "src": "restored/10_万字纹_swastika_pattern.png",
+      "alt": "AIGC 复原纹样：10 万字纹 swastika pattern"
+    },
+    {
+      "id": "restored-restored-11-鱼纹-fish-pattern",
+      "title": "11 鱼纹 fish pattern",
+      "category": "restored",
+      "src": "restored/11_鱼纹_fish_pattern.png",
+      "alt": "AIGC 复原纹样：11 鱼纹 fish pattern"
+    },
+    {
+      "id": "restored-restored-12-蜘蛛纹-spider-pattern",
+      "title": "12 蜘蛛纹 spider pattern",
+      "category": "restored",
+      "src": "restored/12_蜘蛛纹_spider_pattern.png",
+      "alt": "AIGC 复原纹样：12 蜘蛛纹 spider pattern"
+    },
+    {
+      "id": "restored-restored-13-龟纹-turtle-pattern",
+      "title": "13 龟纹 turtle pattern",
+      "category": "restored",
+      "src": "restored/13_龟纹_turtle_pattern.png",
+      "alt": "AIGC 复原纹样：13 龟纹 turtle pattern"
+    },
+    {
+      "id": "restored-restored-14-鹰纹-eagle-pattern",
+      "title": "14 鹰纹 eagle pattern",
+      "category": "restored",
+      "src": "restored/14_鹰纹_eagle_pattern.png",
+      "alt": "AIGC 复原纹样：14 鹰纹 eagle pattern"
+    },
+    {
+      "id": "restored-restored-15-稻谷纹-rice-pattern",
+      "title": "15 稻谷纹 rice pattern",
+      "category": "restored",
+      "src": "restored/15_稻谷纹_rice_pattern.png",
+      "alt": "AIGC 复原纹样：15 稻谷纹 rice pattern"
+    },
+    {
+      "id": "restored-restored-16-蝴蝶纹-butterfly-pattern",
+      "title": "16 蝴蝶纹 butterfly pattern",
+      "category": "restored",
+      "src": "restored/16_蝴蝶纹_butterfly_pattern.png",
+      "alt": "AIGC 复原纹样：16 蝴蝶纹 butterfly pattern"
+    },
+    {
+      "id": "restored-restored-17-螃蟹纹-crab-pattern",
+      "title": "17 螃蟹纹 crab pattern",
+      "category": "restored",
+      "src": "restored/17_螃蟹纹_crab_pattern.png",
+      "alt": "AIGC 复原纹样：17 螃蟹纹 crab pattern"
+    },
+    {
+      "id": "restored-restored-18-公鸡纹-rooster-pattern",
+      "title": "18 公鸡纹 rooster pattern",
+      "category": "restored",
+      "src": "restored/18_公鸡纹_rooster_pattern.png",
+      "alt": "AIGC 复原纹样：18 公鸡纹 rooster pattern"
+    },
+    {
+      "id": "restored-restored-19-鸵鸟纹-ostrich-pattern",
+      "title": "19 鸵鸟纹 ostrich pattern",
+      "category": "restored",
+      "src": "restored/19_鸵鸟纹_ostrich_pattern.png",
+      "alt": "AIGC 复原纹样：19 鸵鸟纹 ostrich pattern"
+    },
+    {
+      "id": "restored-restored-20-猫纹-cat-pattern",
+      "title": "20 猫纹 cat pattern",
+      "category": "restored",
+      "src": "restored/20_猫纹_cat_pattern.png",
+      "alt": "AIGC 复原纹样：20 猫纹 cat pattern"
+    },
+    {
+      "id": "restored-restored-21-老鼠纹-mouse-pattern",
+      "title": "21 老鼠纹 mouse pattern",
+      "category": "restored",
+      "src": "restored/21_老鼠纹_mouse_pattern.png",
+      "alt": "AIGC 复原纹样：21 老鼠纹 mouse pattern"
+    },
+    {
+      "id": "restored-restored-22-男人纹-man-pattern",
+      "title": "22 男人纹 man pattern",
+      "category": "restored",
+      "src": "restored/22_男人纹_man_pattern.png",
+      "alt": "AIGC 复原纹样：22 男人纹 man pattern"
+    },
+    {
+      "id": "restored-restored-23-女人纹-woman-pattern",
+      "title": "23 女人纹 woman pattern",
+      "category": "restored",
+      "src": "restored/23_女人纹_woman_pattern.png",
+      "alt": "AIGC 复原纹样：23 女人纹 woman pattern"
+    },
+    {
+      "id": "restored-restored-24-姐妹纹叉腰-sisters-waist-pattern",
+      "title": "24 姐妹纹叉腰 sisters waist pattern",
+      "category": "restored",
+      "src": "restored/24_姐妹纹叉腰_sisters_waist_pattern.png",
+      "alt": "AIGC 复原纹样：24 姐妹纹叉腰 sisters waist pattern"
+    },
+    {
+      "id": "restored-restored-25-人骑鹿纹-deer-rider-pattern",
+      "title": "25 人骑鹿纹 deer rider pattern",
+      "category": "restored",
+      "src": "restored/25_人骑鹿纹_deer_rider_pattern.png",
+      "alt": "AIGC 复原纹样：25 人骑鹿纹 deer rider pattern"
+    },
+    {
+      "id": "restored-restored-26-祖先-屋纹-ancestor-house-pattern",
+      "title": "26 祖先、屋纹 ancestor house pattern",
+      "category": "restored",
+      "src": "restored/26_祖先、屋纹_ancestor_house_pattern.png",
+      "alt": "AIGC 复原纹样：26 祖先、屋纹 ancestor house pattern"
+    },
+    {
+      "id": "restored-restored-27-铜钱纹-coin-pattern",
+      "title": "27 铜钱纹 coin pattern",
+      "category": "restored",
+      "src": "restored/27_铜钱纹_coin_pattern.png",
+      "alt": "AIGC 复原纹样：27 铜钱纹 coin pattern"
+    },
+    {
+      "id": "restored-restored-28-雷纹-thunder-pattern",
+      "title": "28 雷纹 thunder pattern",
+      "category": "restored",
+      "src": "restored/28_雷纹_thunder_pattern.png",
+      "alt": "AIGC 复原纹样：28 雷纹 thunder pattern"
+    },
+    {
+      "id": "restored-restored-29-树纹-tree-pattern",
+      "title": "29 树纹 tree pattern",
+      "category": "restored",
+      "src": "restored/29_树纹_tree_pattern.png",
+      "alt": "AIGC 复原纹样：29 树纹 tree pattern"
+    },
+    {
+      "id": "restored-restored-30-竹筐纹-basket-pattern",
+      "title": "30 竹筐纹 basket pattern",
+      "category": "restored",
+      "src": "restored/30_竹筐纹_basket_pattern.png",
+      "alt": "AIGC 复原纹样：30 竹筐纹 basket pattern"
+    },
+    {
+      "id": "innovative-innovative-phase2b-dali-god-pattern-showcase-phase2b-dali-god-pattern-showcase-00001",
+      "title": "dali god pattern showcase phase2b dali god pattern showcase 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_dali_god_pattern_showcase_phase2b_dali_god_pattern_showcase_00001_.png",
+      "alt": "创新纹样：dali god pattern showcase phase2b dali god pattern showcase 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-dali-god-pattern-textile-phase2b-dali-god-pattern-textile-00001",
+      "title": "dali god pattern textile phase2b dali god pattern textile 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_dali_god_pattern_textile_phase2b_dali_god_pattern_textile_00001_.png",
+      "alt": "创新纹样：dali god pattern textile phase2b dali god pattern textile 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-deer-pattern-showcase-phase2b-deer-pattern-showcase-00001",
+      "title": "deer pattern showcase phase2b deer pattern showcase 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_deer_pattern_showcase_phase2b_deer_pattern_showcase_00001_.png",
+      "alt": "创新纹样：deer pattern showcase phase2b deer pattern showcase 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-deer-pattern-textile-phase2b-deer-pattern-textile-00001",
+      "title": "deer pattern textile phase2b deer pattern textile 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_deer_pattern_textile_phase2b_deer_pattern_textile_00001_.png",
+      "alt": "创新纹样：deer pattern textile phase2b deer pattern textile 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-frog-pattern-showcase-phase2b-frog-pattern-showcase-00001",
+      "title": "frog pattern showcase phase2b frog pattern showcase 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_frog_pattern_showcase_phase2b_frog_pattern_showcase_00001_.png",
+      "alt": "创新纹样：frog pattern showcase phase2b frog pattern showcase 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-frog-pattern-textile-phase2b-frog-pattern-textile-00001",
+      "title": "frog pattern textile phase2b frog pattern textile 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_frog_pattern_textile_phase2b_frog_pattern_textile_00001_.png",
+      "alt": "创新纹样：frog pattern textile phase2b frog pattern textile 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-gonggong-bird-pattern-showcase-phase2b-gonggong-bird-pattern-showcase-00001",
+      "title": "gonggong bird pattern showcase phase2b gonggong bird pattern showcase 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_gonggong_bird_pattern_showcase_phase2b_gonggong_bird_pattern_showcase_00001_.png",
+      "alt": "创新纹样：gonggong bird pattern showcase phase2b gonggong bird pattern showcase 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-gonggong-bird-pattern-textile-phase2b-gonggong-bird-pattern-textile-00001",
+      "title": "gonggong bird pattern textile phase2b gonggong bird pattern textile 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_gonggong_bird_pattern_textile_phase2b_gonggong_bird_pattern_textile_00001_.png",
+      "alt": "创新纹样：gonggong bird pattern textile phase2b gonggong bird pattern textile 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-human-pattern-showcase-phase2b-human-pattern-showcase-00001",
+      "title": "human pattern showcase phase2b human pattern showcase 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_human_pattern_showcase_phase2b_human_pattern_showcase_00001_.png",
+      "alt": "创新纹样：human pattern showcase phase2b human pattern showcase 00001"
+    },
+    {
+      "id": "innovative-innovative-phase2b-human-pattern-textile-phase2b-human-pattern-textile-00001",
+      "title": "human pattern textile phase2b human pattern textile 00001",
+      "category": "innovative",
+      "src": "innovative/phase2b_human_pattern_textile_phase2b_human_pattern_textile_00001_.png",
+      "alt": "创新纹样：human pattern textile phase2b human pattern textile 00001"
+    },
+    {
+      "id": "lora-lora-phase2c-eagle-vision-w0-0-00001-eagle-vision-w0-0",
+      "title": "eagle vision w0 0 00001 eagle vision w0.0",
+      "category": "lora",
+      "src": "lora/phase2c_eagle_vision_w0_0_00001__eagle_vision_w0.0.png",
+      "alt": "LoRA 探索图：eagle vision w0 0 00001 eagle vision w0.0"
+    },
+    {
+      "id": "lora-lora-phase2c-eagle-vision-w0-6-00001-eagle-vision-w0-6",
+      "title": "eagle vision w0 6 00001 eagle vision w0.6",
+      "category": "lora",
+      "src": "lora/phase2c_eagle_vision_w0_6_00001__eagle_vision_w0.6.png",
+      "alt": "LoRA 探索图：eagle vision w0 6 00001 eagle vision w0.6"
+    },
+    {
+      "id": "lora-lora-phase2c-eagle-vision-w0-8-00001-eagle-vision-w0-8",
+      "title": "eagle vision w0 8 00001 eagle vision w0.8",
+      "category": "lora",
+      "src": "lora/phase2c_eagle_vision_w0_8_00001__eagle_vision_w0.8.png",
+      "alt": "LoRA 探索图：eagle vision w0 8 00001 eagle vision w0.8"
+    },
+    {
+      "id": "lora-lora-phase2c-eagle-vision-w1-0-00001-eagle-vision-w1-0",
+      "title": "eagle vision w1 0 00001 eagle vision w1.0",
+      "category": "lora",
+      "src": "lora/phase2c_eagle_vision_w1_0_00001__eagle_vision_w1.0.png",
+      "alt": "LoRA 探索图：eagle vision w1 0 00001 eagle vision w1.0"
+    },
+    {
+      "id": "lora-lora-phase2c-fashion-border-w0-0-00001-fashion-border-w0-0",
+      "title": "fashion border w0 0 00001 fashion border w0.0",
+      "category": "lora",
+      "src": "lora/phase2c_fashion_border_w0_0_00001__fashion_border_w0.0.png",
+      "alt": "LoRA 探索图：fashion border w0 0 00001 fashion border w0.0"
+    },
+    {
+      "id": "lora-lora-phase2c-fashion-border-w0-6-00001-fashion-border-w0-6",
+      "title": "fashion border w0 6 00001 fashion border w0.6",
+      "category": "lora",
+      "src": "lora/phase2c_fashion_border_w0_6_00001__fashion_border_w0.6.png",
+      "alt": "LoRA 探索图：fashion border w0 6 00001 fashion border w0.6"
+    },
+    {
+      "id": "lora-lora-phase2c-fashion-border-w0-8-00001-fashion-border-w0-8",
+      "title": "fashion border w0 8 00001 fashion border w0.8",
+      "category": "lora",
+      "src": "lora/phase2c_fashion_border_w0_8_00001__fashion_border_w0.8.png",
+      "alt": "LoRA 探索图：fashion border w0 8 00001 fashion border w0.8"
+    },
+    {
+      "id": "lora-lora-phase2c-fashion-border-w1-0-00001-fashion-border-w1-0",
+      "title": "fashion border w1 0 00001 fashion border w1.0",
+      "category": "lora",
+      "src": "lora/phase2c_fashion_border_w1_0_00001__fashion_border_w1.0.png",
+      "alt": "LoRA 探索图：fashion border w1 0 00001 fashion border w1.0"
+    },
+    {
+      "id": "lora-lora-phase2c-fish-new-w0-0-00001-fish-new-w0-0",
+      "title": "fish new w0 0 00001 fish new w0.0",
+      "category": "lora",
+      "src": "lora/phase2c_fish_new_w0_0_00001__fish_new_w0.0.png",
+      "alt": "LoRA 探索图：fish new w0 0 00001 fish new w0.0"
+    },
+    {
+      "id": "lora-lora-phase2c-fish-new-w0-6-00001-fish-new-w0-6",
+      "title": "fish new w0 6 00001 fish new w0.6",
+      "category": "lora",
+      "src": "lora/phase2c_fish_new_w0_6_00001__fish_new_w0.6.png",
+      "alt": "LoRA 探索图：fish new w0 6 00001 fish new w0.6"
+    },
+    {
+      "id": "lora-lora-phase2c-fish-new-w0-8-00001-fish-new-w0-8",
+      "title": "fish new w0 8 00001 fish new w0.8",
+      "category": "lora",
+      "src": "lora/phase2c_fish_new_w0_8_00001__fish_new_w0.8.png",
+      "alt": "LoRA 探索图：fish new w0 8 00001 fish new w0.8"
+    },
+    {
+      "id": "lora-lora-phase2c-fish-new-w1-0-00001-fish-new-w1-0",
+      "title": "fish new w1 0 00001 fish new w1.0",
+      "category": "lora",
+      "src": "lora/phase2c_fish_new_w1_0_00001__fish_new_w1.0.png",
+      "alt": "LoRA 探索图：fish new w1 0 00001 fish new w1.0"
+    },
+    {
+      "id": "lora-lora-phase2c-guardian-abstract-w0-0-00001-guardian-abstract-w0-0",
+      "title": "guardian abstract w0 0 00001 guardian abstract w0.0",
+      "category": "lora",
+      "src": "lora/phase2c_guardian_abstract_w0_0_00001__guardian_abstract_w0.0.png",
+      "alt": "LoRA 探索图：guardian abstract w0 0 00001 guardian abstract w0.0"
+    },
+    {
+      "id": "lora-lora-phase2c-guardian-abstract-w0-6-00001-guardian-abstract-w0-6",
+      "title": "guardian abstract w0 6 00001 guardian abstract w0.6",
+      "category": "lora",
+      "src": "lora/phase2c_guardian_abstract_w0_6_00001__guardian_abstract_w0.6.png",
+      "alt": "LoRA 探索图：guardian abstract w0 6 00001 guardian abstract w0.6"
+    },
+    {
+      "id": "lora-lora-phase2c-guardian-abstract-w0-8-00001-guardian-abstract-w0-8",
+      "title": "guardian abstract w0 8 00001 guardian abstract w0.8",
+      "category": "lora",
+      "src": "lora/phase2c_guardian_abstract_w0_8_00001__guardian_abstract_w0.8.png",
+      "alt": "LoRA 探索图：guardian abstract w0 8 00001 guardian abstract w0.8"
+    },
+    {
+      "id": "lora-lora-phase2c-guardian-abstract-w1-0-00001-guardian-abstract-w1-0",
+      "title": "guardian abstract w1 0 00001 guardian abstract w1.0",
+      "category": "lora",
+      "src": "lora/phase2c_guardian_abstract_w1_0_00001__guardian_abstract_w1.0.png",
+      "alt": "LoRA 探索图：guardian abstract w1 0 00001 guardian abstract w1.0"
+    },
+    {
+      "id": "lora-lora-phase2c-rice-harvest-w0-0-00001-rice-harvest-w0-0",
+      "title": "rice harvest w0 0 00001 rice harvest w0.0",
+      "category": "lora",
+      "src": "lora/phase2c_rice_harvest_w0_0_00001__rice_harvest_w0.0.png",
+      "alt": "LoRA 探索图：rice harvest w0 0 00001 rice harvest w0.0"
+    },
+    {
+      "id": "lora-lora-phase2c-rice-harvest-w0-6-00001-rice-harvest-w0-6",
+      "title": "rice harvest w0 6 00001 rice harvest w0.6",
+      "category": "lora",
+      "src": "lora/phase2c_rice_harvest_w0_6_00001__rice_harvest_w0.6.png",
+      "alt": "LoRA 探索图：rice harvest w0 6 00001 rice harvest w0.6"
+    },
+    {
+      "id": "lora-lora-phase2c-rice-harvest-w0-8-00001-rice-harvest-w0-8",
+      "title": "rice harvest w0 8 00001 rice harvest w0.8",
+      "category": "lora",
+      "src": "lora/phase2c_rice_harvest_w0_8_00001__rice_harvest_w0.8.png",
+      "alt": "LoRA 探索图：rice harvest w0 8 00001 rice harvest w0.8"
+    },
+    {
+      "id": "lora-lora-phase2c-rice-harvest-w1-0-00001-rice-harvest-w1-0",
+      "title": "rice harvest w1 0 00001 rice harvest w1.0",
+      "category": "lora",
+      "src": "lora/phase2c_rice_harvest_w1_0_00001__rice_harvest_w1.0.png",
+      "alt": "LoRA 探索图：rice harvest w1 0 00001 rice harvest w1.0"
+    },
+    {
+      "id": "lora-lora-phase2c-turtle-guardian-w0-0-00001-turtle-guardian-w0-0",
+      "title": "turtle guardian w0 0 00001 turtle guardian w0.0",
+      "category": "lora",
+      "src": "lora/phase2c_turtle_guardian_w0_0_00001__turtle_guardian_w0.0.png",
+      "alt": "LoRA 探索图：turtle guardian w0 0 00001 turtle guardian w0.0"
+    },
+    {
+      "id": "lora-lora-phase2c-turtle-guardian-w0-6-00001-turtle-guardian-w0-6",
+      "title": "turtle guardian w0 6 00001 turtle guardian w0.6",
+      "category": "lora",
+      "src": "lora/phase2c_turtle_guardian_w0_6_00001__turtle_guardian_w0.6.png",
+      "alt": "LoRA 探索图：turtle guardian w0 6 00001 turtle guardian w0.6"
+    },
+    {
+      "id": "lora-lora-phase2c-turtle-guardian-w0-8-00001-turtle-guardian-w0-8",
+      "title": "turtle guardian w0 8 00001 turtle guardian w0.8",
+      "category": "lora",
+      "src": "lora/phase2c_turtle_guardian_w0_8_00001__turtle_guardian_w0.8.png",
+      "alt": "LoRA 探索图：turtle guardian w0 8 00001 turtle guardian w0.8"
+    },
+    {
+      "id": "lora-lora-phase2c-turtle-guardian-w1-0-00001-turtle-guardian-w1-0",
+      "title": "turtle guardian w1 0 00001 turtle guardian w1.0",
+      "category": "lora",
+      "src": "lora/phase2c_turtle_guardian_w1_0_00001__turtle_guardian_w1.0.png",
+      "alt": "LoRA 探索图：turtle guardian w1 0 00001 turtle guardian w1.0"
+    }
+  ]
+}
